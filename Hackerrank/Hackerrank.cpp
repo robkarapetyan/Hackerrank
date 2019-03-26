@@ -8,18 +8,12 @@
 
 int main()
 {
-
 	std::stack<int> maximums, outp;
-
 	int N, crnt;
 	std::ifstream find("text.txt");
-
 	find >> N;
 	for (int i = 0; i < N; ++i) {
-		
-		
 		int max = 0;
-		
 		find >> crnt;
 		switch (crnt)
 		{
@@ -66,8 +60,6 @@ int main()
 		case 3:
 		{
 			std::cout << maximums.top() << std::endl;
-			// if(outp.top() != max)
-			// outp.push(max);
 			break;
 		}
 		default:
