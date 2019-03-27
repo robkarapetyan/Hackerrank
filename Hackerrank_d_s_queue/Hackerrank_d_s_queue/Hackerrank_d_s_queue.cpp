@@ -37,5 +37,7 @@ int main()
 				continue;
 	}
 	}
+	fin.close();
+	fout.close();
 	return 0;
 }
